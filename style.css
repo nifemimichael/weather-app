@@ -36,7 +36,7 @@ input, button {
 
 #searchbox input {
     height: 25px;
-    color: white;
+    color: black;
     width: 200px;
     padding-left: 5px;
     background-color: none;
@@ -46,10 +46,9 @@ input, button {
 }
 
 #searchbox button {
-    background-color: none;
-    border: none;
-    outline-color: transparent;
-    outline: none;
+    background-color: darkcyan;
+    border: 15px;
+    
 }
 
 #topbar #searchicon {

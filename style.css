@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+body {
+    font-family: 'Zilla Slab', sans-serif;
+    background-color: #dddddd;
+}
+
+input, button {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+
+#topbar {
+    background-color: darkcyan;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+#searchbox {
+    padding: 10px;
+    background-color: darkcyan;
+    display: none;
+    width: 350px;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+}
+
+
+#searchbox input {
+    height: 25px;
+    color: white;
+    width: 200px;
+    padding-left: 5px;
+    background-color: none;
+    outline: none;
+    
+
+}
+
+#searchbox button {
+    background-color: none;
+    border: none;
+    outline-color: transparent;
+    outline: none;
+}
+
+#topbar #searchicon {
+    float: right;
+}
+
+#mainbody {
+    color: white;
+    background-color: darkcyan;
+    margin-top: 30px;
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    animation: appear 1s 1;
+    border-radius: 20px;
+}
+#city {
+    font-size: 50px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+#mainbody img {
+    float: right;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#temp {
+    float: right;
+    font-size: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+#cond {
+    float: left;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+#wind {
+    text-align: right;
+}
+#label
+{
+   font-size: 25px;
+   font-weight: 500;
+   padding: 5px;
+   text-align: center;
+   padding-top: 20px;
+}
+@keyframes appear {
+    from {
+        width: 0px;
+    }
+    to {
+    
+    width: 300px;
+    }
+}
+
+@keyframes forecast {
+    from {
+        height: 0px;
+        width: 0px;
+    }
+    to {
+        height: 420px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    body {
+      zoom: 2;
+    }
+  }
